@@ -1,0 +1,38 @@
+# Local execution and agent scratch state
+.superpowers/
+.agents/
+.worktrees/
+
+# Build products
+project/MDK_V5/listings
+project/MDK_V5/objects
+project/MDK_V5/JlinkLog.txt
+project/MDK_V5/JlinkSettings.ini
+project/MDK_V5/EventRecorderStub.scvd
+
+# Python/editor artifacts
+__pycache__/
+.venv/
+.pytest_cache/
+*.py[cod]
+.vscode/
+.idea/
+
+# Local captures and generated verification output
+*.adxbin
+*.map
+*.elf
+*.bin
+*.hex
+*.log
+*.uvguix.*
+project/MDK_V5/JLinkLog.txt
+project/MDK_V5/JLinkSettings.ini
+tests/build/
+
+# Local Keil/LinkScope sessions and temporary verification projects
+*.lksscope
+project/MDK_V5/.verify-mode*.uvprojx
+*.axf
+*.o
+*.obj
